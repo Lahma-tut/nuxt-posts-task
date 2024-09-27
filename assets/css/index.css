@@ -1,0 +1,39 @@
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+input, textarea, select {
+  outline: none;
+}
+
+input, textarea, select {
+  background: transparent;
+  border: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+ }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
